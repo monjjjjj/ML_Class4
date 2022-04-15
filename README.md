@@ -55,8 +55,10 @@
        舉例：b2只考慮a1跟a2而不考慮a3跟a4，因為decoder的輸出是一個一個產生的！
        
 5. AT -> 一次產生一個字
+
    NAT -> 一次產生一個句子
 
 6. encoder跟decoder之間如何傳遞資訊？
+   藉由cross attention(k&v來自encoder, q來自decoder)
 
 
