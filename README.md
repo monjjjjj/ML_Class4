@@ -30,6 +30,21 @@
 6. training可能會遇到的問題：Internal Covariate Shift?
    
    batch normalization會有幫助不一定是因為解決了internal covariate shift
+   
+## Transformer
+1. multi-class classification: 不只一種class，機器要從多種class中選出一個來
+
+   multi-label classification: 同一個東西可以屬於多個class
+   
+2. seq2seq is a powerful model
+   
+   encoder: input一排向量，output一排向量
+   
+   在transformer裡的encoder用的就是self-attention
+
+3. residual connection 
+
+   residual vector = input vector + output vector
 
 
 
