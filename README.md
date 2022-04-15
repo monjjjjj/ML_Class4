@@ -38,7 +38,7 @@
    
 2. seq2seq is a powerful model
    
-   encoder: input一排向量，output一排向量
+   encoder: input一排向量，output一排向量（輸入一個vector seq，輸出一個vector seq）
    
    在transformer裡的encoder用的就是self-attention
 
@@ -46,5 +46,17 @@
 
    residual vector = input vector + output vector
 
+4. Decoder-Autoregressive
+   
+   decoder會把自己的輸出，當作下一個階段的輸入 -> 是否會產生error propagation的問題呢？
+
+   Masked self-attention
+   
+       舉例：b2只考慮a1跟a2而不考慮a3跟a4，因為decoder的輸出是一個一個產生的！
+       
+5. AT -> 一次產生一個字
+   NAT -> 一次產生一個句子
+
+6. encoder跟decoder之間如何傳遞資訊？
 
 
