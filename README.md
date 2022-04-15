@@ -31,7 +31,7 @@
    
    batch normalization會有幫助不一定是因為解決了internal covariate shift
    
-## Transformer
+## Transformer: seq2seq
 1. multi-class classification: 不只一種class，機器要從多種class中選出一個來
 
    multi-label classification: 同一個東西可以屬於多個class
@@ -59,6 +59,16 @@
    NAT -> 一次產生一個句子
 
 6. encoder跟decoder之間如何傳遞資訊？
+
    藉由cross attention(k&v來自encoder, q來自decoder)
+   
+7. Teacher Forcing: using the ground truth as input of decoder
+8. Training tips
+
+    (1) Copy mechanism: 從input的資訊複製一些東西出來到output
+
+9. Guided Attention: 要求機器在做attention的時候是有固定方式的！
+
+
 
 
