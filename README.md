@@ -66,8 +66,9 @@
 8. Training tips
 
     (1) Copy mechanism: 從input的資訊複製一些東西出來到output
+    
+    (2) Guided Attention: 要求機器在做attention的時候是有固定方式的！
 
-9. Guided Attention: 要求機器在做attention的時候是有固定方式的！
 
 
 
