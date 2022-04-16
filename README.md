@@ -62,7 +62,7 @@
 
    藉由cross attention(k&v來自encoder, q來自decoder)
    
-7. Teacher Forcing: using the ground truth as input of decoder
+7. Teacher Forcing: using the ground truth as input of decoder (當訓練的時候用ground truth當作input? 但testing的時候就無法用ground truth來當input了？)
 8. Training tips
 
     (1) Copy mechanism: 從input的資訊複製一些東西出來到output
